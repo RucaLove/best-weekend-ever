@@ -12,10 +12,10 @@ const events = [{event:'Swim',points:3, img: "http://media.istockphoto.com/photo
 {event:'Hike',points:4, img: "http://i52.tinypic.com/m9t9cl.jpg"},
 {event:'Festival',points:10, img: "http://ampthemag.com/wp-content/uploads/2017/03/fest-girl.jpg"},
 {event:'BBQ',points:4, img: "http://i4.mirror.co.uk/incoming/article3533182.ece/ALTERNATES/s615/Raging-fire-from-charcoal-barbecue-grill.jpg"},
-{event: 'Rock Climbing', points: 5, img:},
-{event: 'Movie Theater', points: 1, img:},
-{event: 'Party', points: 5, img:},
-{event: 'Travle', points: 15, img:}]
+{event: 'Rock Climbing', points: 5, img:"http://www.toptenz.net/wp-content/uploads/2013/05/Rock-Climbing.jpg"},
+{event: 'Movie Theater', points: 1, img:"http://timothywhite.com/sites/default/files/images/portfolio/pee-wee_herman.jpg"},
+{event: 'Party', points: 5, img:"http://now-here-this.timeout.com/wp-content/uploads/2013/12/House-party.jpg"},
+{event: 'Travel', points: 15, img:"http://marketingland.com/wp-content/ml-loads/2016/05/travel-search-suitcasebeach-ss-1920.png"}]
 
 const user = [{event:'Swim',points:1},{event:'Hike',points:4},{event:'Festival',points:10},{event:'BBQ',points:4}]
 
