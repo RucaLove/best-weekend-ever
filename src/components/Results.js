@@ -2,7 +2,6 @@ import React from 'react'
 
 import Result from './Result';
 
-
 const Results = ({
   user
 }) => {
@@ -12,7 +11,6 @@ const Results = ({
         <div className="collection-item row grey lighten-3">
           <div className="col s8">Event</div>
           <div className="col s2">Points</div>
-          <div className="col s2">Quantity</div>
         </div>
           { user.map((result,i) => <Result key={ i } result={ result } />) }
       </div>

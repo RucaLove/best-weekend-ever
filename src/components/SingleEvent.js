@@ -1,10 +1,14 @@
 import React from 'react'
 import {Button, Card, CardTitle, Col} from 'react-materialize';
 
+
 const SingleEvent = ({oneevent,user}) => {
   return (
 		<Col s={12} m={4}>
-      <Card header={< CardTitle image = {oneevent.img} >{oneevent.event}</CardTitle>} actions={[ <Button floating large className='red' waves='light' icon='add' onClick={addPoints}/>]}>
+      <Card header={< CardTitle image = {oneevent.img} ></CardTitle>} actions={[ <Button floating large className='red' waves='light' icon='add' onClick={addPoints}/>]}>
+      <div className="card-title">
+      {oneevent.event}
+      </div>
       </Card>
     </Col>
   )

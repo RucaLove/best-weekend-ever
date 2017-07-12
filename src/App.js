@@ -26,11 +26,10 @@ const App = ({
       <div className="row">
         <Header />
         <Events events={ events } user={ user }/>
-        <Results user ={ user }/>
       </div>
       <div className="row">
         <div className="col s12">
-
+        <Results user ={ user }/>
         </div>
       </div>
 
