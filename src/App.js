@@ -9,7 +9,7 @@ import Events from './components/Events';
 
 const events = [{event:'Swim',points:1},{event:'Run',points:3},{event:'Hike',points:4},{event:'Festival',points:10},{event:'BBQ',points:4},]
 
-const user = []
+const user = [{event:'Swim',points:1},{event:'Swim',points:1},{event:'Hike',points:4},{event:'Festival',points:10},{event:'BBQ',points:4},{event:'BBQ',points:4},{event:'Hike',points:4}]
 
 const App = ({
   text
