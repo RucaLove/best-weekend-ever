@@ -7,7 +7,9 @@ import Header from './components/Header';
 import Results from './components/Results';
 import Events from './components/Events';
 
-const user = [{event:'Swim',points:1},{event:'Run',points:3},{event:'Hike',points:4},{event:'Festival',points:10},{event:'BBQ',points:4},]
+const events = [{event:'Swim',points:1},{event:'Run',points:3},{event:'Hike',points:4},{event:'Festival',points:10},{event:'BBQ',points:4},]
+
+const user = []
 
 const App = ({
   text
@@ -16,8 +18,8 @@ const App = ({
     <div className="container">
       <div className="row">
         <Header />
-        <Events />
-        <Results />
+        <Events events={ events }/>
+        <Results user ={ user }/>
       </div>
       <div className="row">
         <div className="col s12">
