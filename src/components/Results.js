@@ -1,9 +1,13 @@
 import React from 'react'
 
+import Result from './Result';
+
+
 const Results = ({
+  user
 }) => {
   return (
-    <div>Results Component</div>
+    <div className="collection">{ user.map((result,i) => <Result key={ i } result={ result } />) }</div>
   )
 }
 
