@@ -3,7 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 import 'materialize-css/dist/css/materialize.min.css';
 import Header from './components/Header';
-// import Nav from './components/Nav';
 import Results from './components/Results';
 import Events from './components/Events';
 
