@@ -1,9 +1,12 @@
 import React from 'react'
+import SingleEvent from './SingleEvent'
 
-const Events = ({
+const Events = ({ events
 }) => {
   return (
-    <div>Events Components</div>
+    <div>{events.map((oneevent) => <SingleEvent oneevent= {oneevent}/>)}
+
+    </div>
   )
 }
 
