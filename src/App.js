@@ -7,7 +7,8 @@ import Header from './components/Header';
 import Results from './components/Results';
 import Events from './components/Events';
 
-const events = [{event:'Swim',points:1},{event:'Run',points:3},{event:'Hike',points:4},{event:'Festival',points:10},{event:'BBQ',points:4},]
+const events = [{event:'Swim',points:1, img: "http://media.istockphoto.com/photos/friends-enjoying-a-pool-party-picture-id524323159?k=6&m=524323159&s=612x612&w=0&h=_IBOSTI2_sR_pkaspsp28LyaguoTCZ_-VUhvoGWbLQs="},
+{event:'Run',points:3},{event:'Hike',points:4},{event:'Festival',points:10},{event:'BBQ',points:4},]
 
 const user = [{event:'Swim',points:1},{event:'Swim',points:1},{event:'Hike',points:4},{event:'Festival',points:10},{event:'BBQ',points:4},{event:'BBQ',points:4},{event:'Hike',points:4}]
 

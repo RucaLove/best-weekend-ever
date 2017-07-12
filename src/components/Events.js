@@ -4,8 +4,9 @@ import SingleEvent from './SingleEvent'
 const Events = ({ events
 }) => {
   return (
-    <div>{events.map((oneevent) => <SingleEvent oneevent= {oneevent}/>)}
-
+    <div className="row">
+      {events.map((oneevent) => <SingleEvent oneevent= {oneevent}/>)}
+      
     </div>
   )
 }
