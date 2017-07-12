@@ -1,16 +1,14 @@
 import React from 'react'
 
-import Nav from './Nav';
-
 
 const Header = ({
 }) => {
   return (
     <nav>
-      <div className="nav-wrapper yellow lighten-2">
+      <div className="nav-wrapper amber darken-2">
         <div className="col s12">
-          <a href="#" className="brand-logo center">Gameify Yo Summah</a>
-          <Nav />
+          <a href="#" className="brand-logo animated flip">Epic Weekend</a>
+          <img className="image" src="../logo.png"/>
         </div>
       </div>
     </nav>
