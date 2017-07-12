@@ -19,7 +19,7 @@ const App = ({
     <div className="container">
       <div className="row">
         <Header />
-        <Events events={ events }/>
+        <Events events={ events } user={ user }/>
         <Results user ={ user }/>
       </div>
       <div className="row">
