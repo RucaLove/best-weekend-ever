@@ -1,13 +1,10 @@
 import React from 'react'
 
-const Result = ({result}) => {
+const Result = ({ result }) => {
   return (
-
-    <div className="collection-item">
-      <div className="row">
-        <div className="col s8">{result.event}</div>
-        <div className="col s2">{result.points}</div>
-      </div>
+    <div className="collection-item row">
+        <div className="col s6">{result.name}</div>
+        <div className="col s6">{result.points*result.count}</div>
     </div>
   )
 }

@@ -2,6 +2,34 @@
   text-align: center;
 }
 
+
+#results-container {
+  position: fixed;
+  z-index: 2;
+  width: inherit;
+  margin-top: 3%;
+  right: 1%;
+}
+
+#events-container {
+  margin-top: 3%;
+}
+
+.submit-score-div {
+  height: inherit !important;
+  padding: 0 !important;
+}
+
+.submit-score-button {
+  height: 20px !important;
+  padding: 0 !important;
+  line-height: inherit !important;
+}
+
+.highscore {
+  margin-right: 1%;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
@@ -33,6 +61,7 @@ img {
 
 .brand-logo {
   font-family: 'Poppins', sans-serif;
+  margin-left: 1%;
 }
 
 @charset "UTF-8";

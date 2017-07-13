@@ -1,14 +1,19 @@
 import React from 'react'
-import SingleEvent from './SingleEvent'
+import Event from './Event'
 
-
-const Events = ({ events,user
-}) => {
+const Events = ({ events, user, addPoints, }) => {
   return (
-    <div className="container">
-    <div className="row">
-      {events.map((oneevent,i) => <SingleEvent key={ i } oneevent= {oneevent} user={user}/>)}
-    </div>
+    <div className="container" id="events-container">
+      <div className="row">
+        {events.map((event,i) => (
+          <Event
+            addPoints={addPoints}
+            key={ i }
+            event= {event}
+            user={user}
+          />
+        ))}
+      </div>
     </div>
   )
 }

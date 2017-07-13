@@ -1,8 +1,7 @@
 import React from 'react';
 import {Button, Icon, SideNav, SideNavItem} from 'react-materialize';
 
-const Nav = ({
-}) => {
+const Nav = ({ }) => {
   return (
     <SideNav
         trigger={<Button>SIDE NAV DEMO</Button>}
