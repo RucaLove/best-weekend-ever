@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+.event-points {
+  display: inline-block;
+}
+
+.add-event-button {
+  float: right;
+}
 
 #results-container {
   position: fixed;
@@ -13,6 +20,10 @@
 
 #events-container {
   margin-top: 3%;
+}
+
+.card-title {
+  margin-bottom: 0 !important;
 }
 
 .submit-score-div {

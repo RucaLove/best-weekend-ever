@@ -1,15 +1,20 @@
 import React from 'react'
-import {Button, Card, CardTitle, Col} from 'react-materialize';
+import { Button, Card, CardTitle, Col, Icon } from 'react-materialize';
 
 const Event = ({ addPoints, event, user }) => {
   return (
 		<Col s={12} m={4}>
       <Card header={
         <CardTitle image = {event.img} ></CardTitle>} actions={[
-        <Button floating large className='red' waves='light' icon='add' onClick={() => addPoints(event)}/>]}>
-        <div className="card-title">
-        {event.name} {event.points}pts
-        </div>
+          <div>
+            <h5 className="event-points">
+            {event.points}pts
+            </h5>
+            <Button  floating large className='blue add-event-button' waves='light' onClick={() => addPoints(event)}><Icon>add</Icon></Button>
+          </div>]}>
+        <h5 className="card-title">
+        {event.name}
+        </h5>
       </Card>
     </Col>
   )

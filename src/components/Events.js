@@ -3,16 +3,18 @@ import Event from './Event'
 
 const Events = ({ events, user, addPoints, }) => {
   return (
-    <div className="container" id="events-container">
+    <div className="events-container" id="events-container">
       <div className="row">
+        <div className="col m8 offset-m2">
         {events.map((event,i) => (
           <Event
-            addPoints={addPoints}
+            addPoints={ addPoints }
             key={ i }
-            event= {event}
-            user={user}
+            event= { event }
+            user={ user }
           />
         ))}
+        </div>
       </div>
     </div>
   )
